@@ -32,9 +32,9 @@ def recherche (mots:list)-> str:
 def main():
   erreurs = recherche
   texte = "texte à corriger"
-  texte = str(input("Entrer le texte à corriger:{}".format(paragraphe)))
+  texte = str(input("Entrer le texte à corriger:{}","{paragraphe}.format"))
   erreurs.append (mal_orthographié)
-  resultat = "les mots mal orthographiés sont{}.format(recherche)"
+  resultat = "les mots mal orthographiés sont{},{mal_othographié}.format"
 
 
 
