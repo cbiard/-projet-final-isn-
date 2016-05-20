@@ -1,7 +1,6 @@
 # En français correct s'il vous plaît!
 definition du titre du correcteur d'orthographe.
 
---- il faut importer un dictionnaire en lecture seule ---( myspell peut etre)
 
 def dictionnaire ()-> list:
    dictionnaire = []
@@ -32,7 +31,6 @@ def recherche (mots:list)-> str:
 def main():
   erreurs = recherche
   texte = "texte à corriger"
-  texte = str(input("Entrer le texte à corriger:{}","{paragraphe}.format"))
   erreurs.append (mal_orthographié)
   resultat = "les mots mal orthographiés sont{},{mal_othographié}.format"
 
